@@ -1,0 +1,71 @@
+/* line 1, ../../app/stylesheets/app.scss */
+.navbar-fixed-left {
+  position: fixed;
+  left: 0;
+  top: 46px;
+  z-index: 1000;
+  #  background: #b7b7b7;
+  /* Old browsers */
+  #  background: -moz-linear-gradient(left, #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%);
+  /* FF3.6+ */
+  #  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #b7b7b7), color-stop(26%, #e0dcd9), color-stop(76%, #eae6e3), color-stop(84%, #e0dcd9), color-stop(98%, #c4c4c4));
+  /* Chrome,Safari4+ */
+  #  background: -webkit-linear-gradient(left, #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%);
+  /* Chrome10+,Safari5.1+ */
+  #  background: -o-linear-gradient(left, #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%);
+  /* Opera 11.10+ */
+  #  background: -ms-linear-gradient(left, #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%);
+  /* IE10+ */
+  #  background: linear-gradient(left, #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%);
+  /* W3C */
+  #  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b7b7b7', endColorstr='#c4c4c4',GradientType=1 );
+  /* IE6-9 */
+  height: 600px;
+  #  border: 1px;
+  #  border-color: grey;
+  #  border-style: solid;
+  overflow: auto;
+}
+
+/* line 22, ../../app/stylesheets/app.scss */
+.pseudo-navbar {
+  height: 600px;
+}
+
+/* line 26, ../../app/stylesheets/app.scss */
+.pseudo-topbar {
+  height: 40px;
+}
+
+/* line 30, ../../app/stylesheets/app.scss */
+span.title {
+  font-weight: bold;
+  font-size: large;
+  font-variant: small-caps;
+  color: #B5001E;
+}
+
+/* line 37, ../../app/stylesheets/app.scss */
+span.body {
+  font-size: small;
+  word-wrap: normal;
+}
+
+/* line 42, ../../app/stylesheets/app.scss */
+ul.latest_messages {
+  list-style-type: none;
+}
+/* line 44, ../../app/stylesheets/app.scss */
+ul.latest_messages li {
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+/* line 47, ../../app/stylesheets/app.scss */
+ul.latest_messages li a {
+  display: block;
+}
+/* line 49, ../../app/stylesheets/app.scss */
+ul.latest_messages li a:hover {
+  background: white;
+  text-decoration: none;
+}
