@@ -1,7 +1,7 @@
 .navbar-fixed-left {
   position: fixed;
   left: 0;
-  top: 46px;
+  top: 56px;
   z-index: 1000;
 #  background: #b7b7b7; /* Old browsers */
 #  background: -moz-linear-gradient(left,  #b7b7b7 0%, #e0dcd9 26%, #eae6e3 76%, #e0dcd9 84%, #c4c4c4 98%); /* FF3.6+ */
@@ -55,4 +55,28 @@ ul.latest_messages {
   }
 }
 
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+}
 
+ul#list {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  li {
+    width: 120px;
+    height: auto;
+    overflow: none;
+    list-style: none;
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+}

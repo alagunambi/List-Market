@@ -1,0 +1,12 @@
+<h1>Listing messages</h1>
+<ul>
+<% @messages.each do |message| %>
+<li id=<%= message.id %>>
+    <span class="title"> <%= link_to message.title, message_path(message) %> </span>
+</li>
+<% end %>
+</ul>
+
+<br />
+
+<%= link_to 'New Message', new_message_path %>

@@ -5,8 +5,8 @@ gem 'rails', '3.0.10'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'sqlite3'
-gem 'pg'
+gem 'sqlite3'
+#gem 'pg'
 
 gem 'compass'
 gem 'acts-as-taggable-on'

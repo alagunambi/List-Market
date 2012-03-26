@@ -7,6 +7,7 @@ class MessagesController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @messages }
+      format.js  
     end
   end
 
@@ -19,6 +20,7 @@ class MessagesController < ApplicationController
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @message }
+      format.js
     end
   end
 

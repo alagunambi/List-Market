@@ -2,7 +2,7 @@
 .navbar-fixed-left {
   position: fixed;
   left: 0;
-  top: 46px;
+  top: 56px;
   z-index: 1000;
   #  background: #b7b7b7;
   /* Old browsers */
@@ -67,5 +67,34 @@ ul.latest_messages li a {
 /* line 49, ../../app/stylesheets/app.scss */
 ul.latest_messages li a:hover {
   background: white;
+  text-decoration: none;
+}
+
+/* line 58, ../../app/stylesheets/app.scss */
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+/* line 64, ../../app/stylesheets/app.scss */
+ul#list {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+/* line 68, ../../app/stylesheets/app.scss */
+ul#list li {
+  width: 120px;
+  height: auto;
+  overflow: none;
+  list-style: none;
+}
+/* line 74, ../../app/stylesheets/app.scss */
+ul#list li:hover {
+  font-weight: bold;
+}
+/* line 78, ../../app/stylesheets/app.scss */
+ul#list li a:hover {
   text-decoration: none;
 }

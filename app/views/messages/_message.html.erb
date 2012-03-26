@@ -1,20 +1,19 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
+<p class="title">
   <%= @message.title %>
 </p>
 
-<p>
-  <b>Body:</b>
-  <%= @message.body %>
+<p class="body">
+  <%= simple_format @message.body %>
 </p>
 
-<p>
-  <b>Source:</b>
-  <%= @message.source %>
+<p class="source">
+  <%= simple_format @message.source %>
 </p>
 
 
-<%= link_to 'Edit', edit_message_path(@message) %> |
-<%= link_to 'Back', messages_path %>
+<div class="btn-group">
+  <%= link_to 'Edit', edit_message_path(@message), :class => "btn" %> 
+  <%= link_to 'Back', messages_path, :class => "btn" %>
+</div>
